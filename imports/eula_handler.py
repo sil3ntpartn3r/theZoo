@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
     # Malware DB - the most awesome free malware database on the air
     # Copyright (C) 2014, Yuval Nativ, Lahad Ludar, 5Fingers
@@ -51,8 +51,7 @@ class EULA:
         notice += '|infect your machines with live and dangerous malwares!                     |\n'
         notice += '|___________________________________________________________________________|\n'
         print(red(notice))
-        eula_answer = raw_input(
-            'Type YES in captial letters to accept this EULA.\n > ')
+        eula_answer = input('Type YES in captial letters to accept this EULA.\n > ')
         if eula_answer == 'YES':
             new = open(globals.vars.eula_file, 'a')
             new.write(eula_answer)
