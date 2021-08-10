@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
     # Malware DB - the most awesome free malware database on the air
     # Copyright (C) 2014, Yuval Nativ, Lahad Ludar, 5Fingers
